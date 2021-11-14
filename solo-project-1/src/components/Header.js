@@ -6,7 +6,10 @@ export default function Header() {
     <section className="header">
       <h1>Matas Pigaga</h1>
       <h2>Web Developer</h2>
-      <span>matas.io</span>
+      <span>
+        #100DaysOfCode:{" "}
+        <a href="https://mataspigaga.com/posts/100-days">Day 55/100</a>
+      </span>
       <div className="header--button">
         <a href="https://twitter.com/mataspigaga">
           <SiAngellist />
