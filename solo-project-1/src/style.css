@@ -78,6 +78,7 @@ body {
 
 .info {
   width: 80%;
+  margin-bottom: 20px;
 }
 
 .info--section > h3 {
@@ -89,4 +90,26 @@ body {
   font-size: 14px;
   font-weight: 200;
   margin-top: 5px;
+}
+
+.footer--social {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 0;
+  background-color: #161619;
+  border-radius: 0 0 20px 20px;
+}
+
+.footer--social > a, a:visited{
+  text-decoration: none;
+  color: inherit;
+  font-size: 30px;
+  filter: brightness(60%);
+}
+
+.footer--social > a:hover, a:focus {
+  filter: brightness(100%);
 }
