@@ -52,6 +52,11 @@ body {
   font-size: 15px;
 }
 
+.header > span > a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
 .header--button {
   display: flex;
   justify-content: center;
@@ -82,7 +87,7 @@ body {
 
 .header--button > a:hover,
 a:focus {
-  background: #178DD8;
+  background: #178dd8;
 }
 
 .info {
