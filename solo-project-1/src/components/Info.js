@@ -14,8 +14,8 @@ export default function Info() {
       <section className="info--section">
         <h3>Interests</h3>
         <p>
-          Party DJ. Audiobook Addict. Car Aficionado. Entreprenuer. Coffee Shop
-          Crawler. Cat Dad of 2. Bartender.
+          Audiobook Addict. Car Aficionado. Spicy Bartender. Entreprenuer. Coffee Shop
+          Crawler. Party DJ. Cat Dad of 2.
         </p>
       </section>
     </main>

@@ -10,6 +10,7 @@ body {
 }
 
 .container {
+  width: 95%;
   max-width: 400px;
   color: white;
   background-color: #1a1b21;
@@ -22,7 +23,8 @@ body {
 }
 
 .main--photo {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   border-radius: 20px;
 }
 
