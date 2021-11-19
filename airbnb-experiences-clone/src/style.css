@@ -1,4 +1,4 @@
-/* App */
+/* App  */
 
 * {
   box-sizing: border-box;
@@ -7,11 +7,13 @@
 body {
   margin: 0;
   font-family: Poppins;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .container {
   margin: 0 auto;
-  height: 100vh;
+  margin-bottom: 5rem;
 }
 
 /* Navbar */
@@ -50,5 +52,72 @@ body {
   width: 25rem;
 }
 
+/* Card Group */
+
+.card--group {
+  display: flex;
+  margin-left: 10%;
+}
+
 /* Card */
 
+.card--container {
+  width: 15rem;
+  margin: 2.5rem 0;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.card--container:not(:first-child) {
+  margin-left: 1rem;
+}
+
+.card--image {
+  color: inherit;
+  width: 15rem;
+  height: 20rem;
+}
+
+.card--image > span {
+  position: absolute;
+  margin: 0.5rem 0 0 0.5rem;
+  background: white;
+  padding: 0 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.card--image > img {
+  width: 15rem;
+}
+
+.card--info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card--info > * {
+  margin-top: 0.5rem;
+}
+
+.card--info--ratings {
+  display: flex;
+  align-items: center;
+}
+
+.card--info--ratings > * {
+  margin-right: 0.3rem;
+}
+
+.card--info--ratings > svg {
+  color: red;
+}
+
+.card--info--ratings > span:nth-child(2) {
+  color: black;
+}
+
+.card--info--ratings > span:nth-child(3) {
+  color: gray;
+}
