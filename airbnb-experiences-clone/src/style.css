@@ -72,7 +72,7 @@ body {
   flex: 0 0 auto; /* ADD */
   display: flex; /* ADD */
   flex-direction: column; /* ADD */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .card--container:not(:first-child) {
@@ -85,11 +85,16 @@ body {
   height: 20rem;
 }
 
+.card--container:last-child {
+  margin-right: 10%;
+}
+
 .card--image > span {
   margin: 0.5rem 0 0 0.5rem;
   background: white;
   padding: 0 0.5rem;
   border-radius: 0.3rem;
+  position: absolute;
 }
 
 .card--image > img {
