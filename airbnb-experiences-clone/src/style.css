@@ -7,8 +7,8 @@
 body {
   margin: 0;
   font-family: Poppins;
-  max-width: 100%;
-  overflow-x: hidden;
+  /* max-width: 100%;
+  overflow-x: hidden; */
 }
 
 .container {
@@ -57,6 +57,8 @@ body {
 .card--group {
   display: flex;
   margin-left: 10%;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 
 /* Card */
@@ -67,6 +69,9 @@ body {
   max-width: 80rem;
   display: flex;
   flex-direction: column;
+  flex: 0 0 auto; /* ADD */
+  display: flex; /* ADD */
+  flex-direction: column; /* ADD */
   border: 1px solid black;
 }
 
@@ -81,7 +86,6 @@ body {
 }
 
 .card--image > span {
-  position: absolute;
   margin: 0.5rem 0 0 0.5rem;
   background: white;
   padding: 0 0.5rem;
@@ -90,6 +94,8 @@ body {
 
 .card--image > img {
   width: 15rem;
+  top: 0;
+  left: 0;
 }
 
 .card--info {
