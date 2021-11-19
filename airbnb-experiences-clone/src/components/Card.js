@@ -6,7 +6,8 @@ export default function Card(props) {
     <section className="card--container">
       <a href="/" className="card--image">
         {props.openSpots <= 0 && <span>Sold Out</span>}
-        <img src={require(`../../pubic/${props.img}`)} alt={props.title} />
+        {/* <img src={require(`../../pubic/${props.img}`)} alt={props.title} /> */}
+        <img src={require(`../assets/${props.img}.default`)} alt={props.title} />
       </a>
       <div className="card--info">
         <div className="card--info--ratings">
