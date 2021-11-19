@@ -19,6 +19,7 @@ export default function App() {
         title={person.title}
         price={person.price}
         description={person.description}
+        openSpots={person.openSpots}
       />
     );
   });
