@@ -9,7 +9,7 @@ import cardData from "./assets/data";
 
 export default function App() {
   const cards = cardData.map((item) => {
-    return <Card key={item.id} item={item} />;
+    return <Card key={item.id} {...item} />;
   });
 
   return (
