@@ -1,3 +1,5 @@
+/* App */
+
 * {
   box-sizing: 0;
 }
@@ -21,6 +23,8 @@ body {
   border-radius: 20px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
+
+/* Image */
 
 .main--photo {
   width: 100%;
