@@ -8,20 +8,8 @@ import Card from "./components/Card";
 import cardData from "./assets/data";
 
 export default function App() {
-  const cards = cardData.map((person) => {
-    return (
-      <Card
-        key={person.id}
-        img={person.coverImg}
-        rating={person.stats.rating}
-        reviewCount={person.stats.reviewCount}
-        location={person.location}
-        title={person.title}
-        price={person.price}
-        description={person.description}
-        openSpots={person.openSpots}
-      />
-    );
+  const cards = cardData.map((item) => {
+    return <Card key={item.id} item={item} />;
   });
 
   return (
