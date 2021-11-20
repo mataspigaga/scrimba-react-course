@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Info() {
+export default function Info(props) {
   return (
     <main className="info">
       <section className="info--section">
@@ -17,6 +17,18 @@ export default function Info() {
           Audiobook Addict. Car Aficionado. Spicy Bartender. Entreprenuer.
           Coffee Shop Crawler. Party DJ. Cat Dad of 2.
         </p>
+      </section>
+      <section className="info--section">
+        <h3>Projects</h3>
+        <span className="info--project" onClick={props.show}>
+          <h4 className="info--project--1">Personal Travel Journal</h4>
+        </span>
+        <a
+          className="info--project"
+          href="https://scrimba-react-course.vercel.app"
+        >
+          <h4 className="info--project--2">Airbnb Experiences Clone</h4>
+        </a>
       </section>
     </main>
   );

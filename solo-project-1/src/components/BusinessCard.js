@@ -1,15 +1,15 @@
 import React, { Fragment } from "react";
-import Footer from "./Footer";
-import Header from "./Header";
-import Image from "./Image";
-import Info from "./Info";
+import Footer from "./Business Card/Footer";
+import Header from "./Business Card/Header";
+import Image from "./Business Card/Image";
+import Info from "./Business Card/Info";
 
-export default function BusinessCard() {
+export default function BusinessCard(props) {
   return (
     <>
       <Image />
       <Header />
-      <Info />
+      <Info show={props.show} />
       <Footer />
     </>
   );

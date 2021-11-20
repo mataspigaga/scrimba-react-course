@@ -32,6 +32,8 @@ body {
   border-radius: 20px;
 }
 
+/* Header */
+
 .header {
   display: flex;
   flex-direction: column;
@@ -49,16 +51,17 @@ body {
   font-weight: 200;
   margin-top: 5px;
   margin-bottom: 5px;
-  color: lightsalmon;
+  color: #ed6a5e;
 }
 
 .header > span {
   font-size: 15px;
+  line-height: 1.5rem;
 }
 
 .header > span > a:visited {
   text-decoration: none;
-  color: inherit;
+  color: #39a9db;
 }
 
 .header--button {
@@ -72,8 +75,8 @@ body {
   text-decoration: none;
   text-align: center;
   width: 100%;
-  padding: 10px 0;
-  border-radius: 5px;
+  padding: 0.8rem 0;
+  border-radius: 0.4rem;
   font-size: 20px;
   display: flex;
   justify-content: center;
@@ -82,7 +85,7 @@ body {
 
 .header--button > a:nth-child(1) {
   color: white;
-  background: #1b9cef;
+  background: #39a9db;
 }
 
 .header--button > a > p {
@@ -91,24 +94,58 @@ body {
 
 .header--button > a:hover,
 a:focus {
-  background: #178dd8;
+  background: #39a9dbdd;
 }
+
+/* Info */
 
 .info {
   width: 80%;
-  margin-bottom: 20px;
+  margin-bottom: 1.3rem;
 }
 
 .info--section > h3 {
   margin-bottom: 0;
-  margin-top: 30px;
+  margin-top: 2rem;
 }
 
 .info--section > p {
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 200;
-  margin-top: 5px;
+  margin-top: 0.3rem;
 }
+
+.info--project {
+  text-decoration: none;
+}
+
+.info--project > h4 {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+
+.info--project--1 {
+  background-color: #ed6a5e;
+}
+
+.info--project--1:hover,
+:focus {
+  background-color: #ed6a5edd;
+}
+
+.info--project--2 {
+  background-color: #4ce0b3;
+  color: black;
+}
+
+.info--project--2:hover,
+:focus {
+  background-color: #4ce0b3dd;
+}
+
+/* Footer */
 
 .footer--social {
   width: 100%;
