@@ -31,12 +31,18 @@ body {
   margin-left: 2.5rem;
 }
 
+/* Main */
+
+.container--main {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
 /* Hero */
 
 .hero--container {
   width: 80%;
   margin: 2.5rem auto;
-  max-width: 80rem;
 }
 
 .hero--container > img {

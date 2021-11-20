@@ -15,8 +15,10 @@ export default function App() {
   return (
     <div className="container">
       <Navbar />
-      <Hero />
-      <div className="card--group">{cards}</div>
+      <main className="container--main">
+        <Hero />
+        <div className="card--group">{cards}</div>
+      </main>
     </div>
   );
 }
