@@ -12,3 +12,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Header */
+
+.header--container {
+  width: 100%;
+  background-color: #f55a5a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .8rem;
+}
+
+.header--icon {
+  font-size: 2rem;
+  margin-right: .5rem;
+}
+
+.header--title {
+  font-weight: 500;
+}
