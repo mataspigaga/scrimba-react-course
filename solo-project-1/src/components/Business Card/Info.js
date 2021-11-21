@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Info(props) {
+export default function Info() {
   return (
     <main className="info">
       <section className="info--section">
@@ -20,7 +20,7 @@ export default function Info(props) {
       </section>
       <section className="info--section">
         <h3>Projects</h3>
-        <span className="info--project" onClick={props.show}>
+        <span className="info--project">
           <h4 className="info--project--1">Personal Travel Journal</h4>
         </span>
         <a
