@@ -15,14 +15,19 @@ export default function Info() {
         <h3>Interests</h3>
         <p>
           Audiobook Addict. Car Aficionado. Spicy Bartender. Entreprenuer.
-          Coffee Shop Crawler. Party DJ. Cat Dad of 2.
+          Coffee Shop Crawler. Podcast Junkie. Party DJ. Cat Dad of 2.
         </p>
       </section>
       <section className="info--section">
         <h3>Projects</h3>
-        <span className="info--project">
-          <h4 className="info--project--1">Personal Travel Journal</h4>
-        </span>
+        <a
+          className="info--project"
+          href="https://personal-travel-journal.vercel.app"
+        >
+          <h4 className="info--project--1">
+            Personal Travel Journal (In progress)
+          </h4>
+        </a>
         <a
           className="info--project"
           href="https://scrimba-react-course.vercel.app"

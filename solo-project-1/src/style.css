@@ -137,6 +137,7 @@ a:focus {
 
 .info--project--1 {
   background-color: #ed6a5e;
+  color: white;
 }
 
 .info--project--1:hover,
