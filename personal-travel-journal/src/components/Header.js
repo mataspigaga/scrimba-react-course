@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="header--container">
       <GiAirplaneDeparture className="header--icon" />
-      <span className="header--title">my travel journal.</span>
+      <h1 className="header--title">my travel journal.</h1>
     </header>
   );
 }
