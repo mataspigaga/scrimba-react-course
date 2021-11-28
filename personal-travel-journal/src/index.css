@@ -13,6 +13,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.container {
+  min-height: 100vh;
+  position: relative;
+}
+
 /* Header */
 
 .header--container {
@@ -22,15 +27,63 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: .8rem;
+  padding: 0.8rem;
 }
 
 .header--icon {
   font-size: 2rem;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 .header--title {
   font-weight: 500;
   font-size: 1.5rem;
+}
+
+/* Location */
+
+.location--container {
+  padding: 2.5rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.horizontal--break {
+  border-top: 1px solid #f5f5f5;
+  margin: 0 auto;
+  max-width: 50rem;
+  align-items: center;
+}
+
+.horizontal--break:last-of-type {
+  display: none;
+}
+
+.location--content {
+  display: flex;
+}
+
+.location--image {
+  object-fit: cover;
+  width: 15rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+}
+
+.location--info > h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.location--info > h2 {
+  font-size: 1.2rem;
+}
+
+/* Footer */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
