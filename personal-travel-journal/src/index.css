@@ -48,6 +48,10 @@ body {
   margin: 0 auto;
 }
 
+.location--container:last-of-type {
+  padding-bottom: 10rem;
+}
+
 .horizontal--break {
   border-top: 1px solid #f5f5f5;
   margin: 0 auto;
@@ -85,5 +89,66 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
+  padding: 1.5rem;
+  background-color: #f55a5a;
+  color: white;
+}
+
+.footer--content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.footer--name {
+  margin: auto 0;
+}
+
+.footer--name > span > a,
+a:visited {
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 0.15rem solid white;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  letter-spacing: 0.15rem;
+  font-weight: 700;
+}
+
+.footer--name > span > a:hover {
+  color: #f55a5a;
+  background-color: white;
+}
+
+.footer--social > a,
+a:visited {
+  font-size: 1.5rem;
+  margin: 0 0.75rem;
+  text-decoration: none;
+  color: white;
+  border: 0.15rem solid transparent;
+  display: inline-block;
+  padding: 0.3rem 0.3rem 0 0.3rem;
+}
+
+.footer--social > a:hover {
+  border: 0.15rem solid white;
+  background-color: white;
+  color: #f55a5a;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 599px) {
+  .footer--content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer--name {
+    margin: 1rem 0 2rem 0;
+  }
 }
