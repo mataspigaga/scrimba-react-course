@@ -1,45 +1,77 @@
 const cardData = [
   {
     id: 1,
-    title: "Life Lessons with Katie Zaferes",
-    description:
-      'I will share with you what I call "Positively Impactful Moments of Disappointment." Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.',
-    price: 136,
-    coverImg: "katie-zaferes.png",
+    title: "Chick-fil-A Spa Day",
+    price: 29,
+    coverImg: "1.png",
     stats: {
-      rating: 5.0,
-      reviewCount: 6,
+      rating: 4.7,
+      reviewCount: 12,
     },
-    location: "Online",
+    location: "Your Local Store",
     openSpots: 0,
   },
   {
     id: 2,
-    title: "Learn Wedding Photography",
-    description:
-      "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
+    title: "Stay The Night In A Coffin",
     price: 125,
-    coverImg: "wedding-photography.png",
+    coverImg: "2.png",
     stats: {
-      rating: 5.0,
+      rating: 2.7,
       reviewCount: 30,
     },
-    location: "Online",
+    location: "Funeral Home",
     openSpots: 27,
   },
   {
     id: 3,
-    title: "Group Mountain Biking",
+    title: "Harry Potter & Chill",
     description:
       "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
     price: 50,
-    coverImg: "mountain-bike.png",
+    coverImg: "3.png",
     stats: {
-      rating: 4.8,
+      rating: 4.5,
       reviewCount: 2,
     },
-    location: "Norway",
+    location: "Online",
     openSpots: 3,
+  },
+  {
+    id: 4,
+    title: "Totally Real Ghost Hunting",
+    price: 4,
+    coverImg: "4.png",
+    stats: {
+      rating: 3.7,
+      reviewCount: 22,
+    },
+    location: "Transylvania",
+    openSpots: 3,
+  },
+  {
+    id: 5,
+    title: "Shark Boxing",
+    price: 250,
+    coverImg: "5.png",
+    stats: {
+      rating: 1.2,
+      reviewCount: 48,
+    },
+    location: "Underwater",
+    openSpots: 3,
+  },
+  {
+    id: 6,
+    title: "Watermelon Volleyball",
+    price: 12,
+    coverImg: "6.png",
+    stats: {
+      rating: 4.9,
+      reviewCount: 27,
+    },
+    location: "The Beach",
+    openSpots: 0,
   },
 ];
 
