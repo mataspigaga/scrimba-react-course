@@ -158,7 +158,7 @@ footer {
 .footer--content {
   display: flex;
   justify-content: space-between;
-  max-width: 50rem;
+  max-width: 80rem;
   margin: 0 auto;
 }
 
