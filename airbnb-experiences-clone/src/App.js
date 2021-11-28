@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Card from "./components/Card";
 
 import cardData from "./assets/data";
+import Footer from "./components/Footer";
 
 export default function App() {
   const cards = cardData.map((item) => {
@@ -19,6 +20,7 @@ export default function App() {
         <Hero />
         <div className="card--group">{cards}</div>
       </main>
+      <Footer />
     </div>
   );
 }

@@ -6,14 +6,16 @@
 
 body {
   margin: 0;
-  font-family: Poppins;
-  /* max-width: 100%;
-  overflow-x: hidden; */
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
   margin: 0 auto;
-  margin-bottom: 5rem;
+  min-height: 100vh;
+  position: relative;
 }
 
 /* Navbar */
@@ -36,6 +38,7 @@ body {
 .container--main {
   max-width: 80rem;
   margin: 0 auto;
+  padding-bottom: 8rem;
 }
 
 /* Hero */
@@ -62,7 +65,6 @@ body {
 
 .card--group {
   display: flex;
-  /* margin-left: 10%; */
   flex-wrap: nowrap;
   overflow-x: auto;
 }
@@ -98,6 +100,7 @@ body {
 .card--image > span {
   margin: 0.5rem 0 0 0.5rem;
   background: white;
+  color: black;
   padding: 0 0.5rem;
   border-radius: 0.3rem;
   position: absolute;
@@ -137,4 +140,79 @@ body {
 
 .card--info--ratings > span:nth-child(3) {
   color: gray;
+}
+
+/* Footer */
+
+footer {
+  box-shadow: rgb(0 0 0 / 8%) 0px 1px 12px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1.5rem;
+  background-color: white;
+  color: #fe5a5e;
+}
+
+.footer--content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.footer--name {
+  margin: auto 0;
+}
+
+.footer--name > span > a,
+a:visited {
+  font-size: 1rem;
+  color: #fe5a5e;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 0.15rem solid #fe5a5e;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  letter-spacing: 0.15rem;
+  font-weight: 700;
+}
+
+.footer--name > span > a:hover {
+  color: white;
+  background-color: #fe5a5e;
+}
+
+.footer--social > a,
+a:visited {
+  font-size: 1.5rem;
+  margin: 0 0.75rem;
+  text-decoration: none;
+  color: #fe5a5e;
+  border: 0.15rem solid transparent;
+  display: inline-block;
+  padding: 0.4rem 0.5rem 0 0.5rem;
+}
+
+.footer--social > a:hover {
+  border: 0.15rem solid #fe5a5e;
+  background-color: #fe5a5e;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 599px) {
+  .container--main {
+    padding-bottom: 12rem;
+  }
+
+  .footer--content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer--name {
+    margin: 1rem 0 2rem 0;
+  }
 }
