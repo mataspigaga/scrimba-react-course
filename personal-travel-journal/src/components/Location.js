@@ -6,7 +6,7 @@ export default function Location(props) {
   return (
     <section className="location--container">
       <article className="location--content">
-        <img className="location--image" src={props.item.imageUrl} />
+        <img className="location--image" src={props.item.imageUrl} alt={props.item.title} />
         <div className="location--info">
           <div className="location--location">
             <HiOutlineLocationMarker />
