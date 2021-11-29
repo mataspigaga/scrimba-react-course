@@ -3,7 +3,7 @@ import { SiAngellist } from "react-icons/si";
 
 export default function Header() {
   const daysPassed =
-    61 +
+    59 +
     Math.floor(
       (new Date() - new Date("November 20, 2021 00:00:00")) /
         (24 * 60 * 60 * 1000)

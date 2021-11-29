@@ -25,7 +25,7 @@ export default function Info() {
           href="https://personal-travel-journal.vercel.app"
         >
           <h4 className="info--project--1">
-            Personal Travel Journal (In progress)
+            Personal Travel Journal
           </h4>
         </a>
         <a
