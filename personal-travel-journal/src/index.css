@@ -82,7 +82,7 @@ body {
 .location--location {
   display: flex;
   align-items: center;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .location--location > svg {
@@ -100,6 +100,10 @@ body {
 .location--location > a {
   color: #918e9b;
   margin-left: 1rem;
+}
+
+.location--location > a:visited {
+  color: #918e9b;
 }
 
 .location--info > h1 {
@@ -172,6 +176,11 @@ a:visited {
 
 @media (max-width: 599px) {
   /* Location */
+
+  .location--info {
+    margin: 2rem 0 0 0;
+  }
+
   .location--content {
     flex-direction: column;
     align-items: center;

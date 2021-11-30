@@ -11,7 +11,7 @@ export default function Location(props) {
           <div className="location--location">
             <HiOutlineLocationMarker />
             <span>{props.item.location}</span>
-            <a href="google.com">View on Google Maps</a>
+            <a href={props.item.googleMapsUrl}>View on Google Maps</a>
           </div>
           <h1>{props.item.title}</h1>
           <h2>
