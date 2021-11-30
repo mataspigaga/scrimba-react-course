@@ -22,8 +22,8 @@ body {
 
 .header--container {
   width: 100%;
-  background-color: #f55a5a;
-  color: white;
+  background-color: #4ce0b3;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,7 +86,7 @@ body {
 }
 
 .location--location > svg {
-  color: #f55a5a;
+  color: #4ce0b3;
   font-size: 1.2rem;
 }
 
@@ -122,8 +122,8 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 1.5rem;
-  background-color: #f55a5a;
-  color: white;
+  background-color: #4ce0b3;
+  color: black;
 }
 
 .footer--content {
@@ -140,11 +140,11 @@ footer {
 .footer--name > span > a,
 a:visited {
   font-size: 1rem;
-  color: white;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
   padding: 0.5rem;
-  border: 0.15rem solid white;
+  border: 0.15rem solid black;
   border-radius: 0.5rem;
   margin-left: 0.5rem;
   letter-spacing: 0.15rem;
@@ -152,8 +152,8 @@ a:visited {
 }
 
 .footer--name > span > a:hover {
-  color: #f55a5a;
-  background-color: white;
+  color: #4ce0b3;
+  background-color: black;
 }
 
 .footer--social > a,
@@ -161,16 +161,16 @@ a:visited {
   font-size: 1.5rem;
   margin: 0 0.75rem;
   text-decoration: none;
-  color: white;
+  color: black;
   border: 0.15rem solid transparent;
   display: inline-block;
   padding: 0.3rem 0.3rem 0 0.3rem;
 }
 
 .footer--social > a:hover {
-  border: 0.15rem solid white;
-  background-color: white;
-  color: #f55a5a;
+  border: 0.15rem solid black;
+  background-color: black;
+  color: #4ce0b3;
   border-radius: 0.5rem;
 }
 

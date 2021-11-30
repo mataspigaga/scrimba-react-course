@@ -136,23 +136,23 @@ a:focus {
 }
 
 .info--project--1 {
-  background-color: #ed6a5e;
-  color: white;
-}
-
-.info--project--1:hover,
-:focus {
-  background-color: #ed6a5edd;
-}
-
-.info--project--2 {
   background-color: #4ce0b3;
   color: black;
 }
 
-.info--project--2:hover,
+.info--project--1:hover,
 :focus {
   background-color: #4ce0b3dd;
+}
+
+.info--project--2 {
+  background-color: #ed6a5e;
+  color: white;
+}
+
+.info--project--2:hover,
+:focus {
+  background-color: #ed6a5edd;
 }
 
 /* Footer */
