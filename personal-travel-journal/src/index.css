@@ -177,6 +177,10 @@ a:visited {
 @media (max-width: 599px) {
   /* Location */
 
+  .location--container:last-of-type {
+    padding-bottom: 12rem;
+  }
+
   .location--info {
     margin: 2rem 0 0 0;
   }
