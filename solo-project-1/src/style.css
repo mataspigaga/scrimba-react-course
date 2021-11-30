@@ -140,8 +140,7 @@ a:focus {
   color: black;
 }
 
-.info--project--1:hover,
-:focus {
+.info--project--1:hover {
   background-color: #4ce0b3dd;
 }
 
@@ -150,9 +149,17 @@ a:focus {
   color: white;
 }
 
-.info--project--2:hover,
-:focus {
+.info--project--2:hover {
   background-color: #ed6a5edd;
+}
+
+.info--project--3 {
+  background-color: #7a5980;
+  color: white;
+}
+
+.info--project--3:hover {
+  background-color: #7a5980dd;
 }
 
 /* Footer */
@@ -179,4 +186,5 @@ a:visited {
 .footer--social > a:hover,
 a:focus {
   filter: brightness(100%);
+  background-color: inherit;
 }
