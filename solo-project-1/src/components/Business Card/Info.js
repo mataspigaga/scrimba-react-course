@@ -34,6 +34,12 @@ export default function Info() {
         >
           <h4 className="info--project--2">Airbnb Experiences Clone</h4>
         </a>
+        <a
+          className="info--project"
+          href="https://scrimba-react-course.vercel.app"
+        >
+          <h4 className="info--project--3">Meme Generator - In Progress</h4>
+        </a>
       </section>
     </main>
   );
