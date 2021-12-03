@@ -1,5 +1,13 @@
 import React from "react";
 
 export default function Meme() {
-  return <img src="https://placekitten.com/200/300" alt='placeholder' />;
+  return (
+    <section className="meme--container">
+      <img
+        className="meme--image"
+        src="https://placekitten.com/1000/600"
+        alt="placeholder"
+      />
+    </section>
+  );
 }
