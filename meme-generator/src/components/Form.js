@@ -1,5 +1,4 @@
 import React from "react";
-import { AiOutlineCamera } from "react-icons/ai";
 
 export default function Form() {
   return (
@@ -10,7 +9,6 @@ export default function Form() {
       </form>
       <button className="form--button">
         <span>Get a new meme image</span>
-        {/* <AiOutlineCamera /> */}
       </button>
     </section>
   );
