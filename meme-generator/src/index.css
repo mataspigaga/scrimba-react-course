@@ -88,7 +88,8 @@ body {
 
 .meme--container {
   width: 90%;
-  margin: 1rem auto;
+  margin: 0 auto;
+  padding-bottom: 8rem;
 }
 
 .meme--image {
@@ -155,6 +156,11 @@ a:visited {
 }
 
 @media (max-width: 599px) {
+  /* Meme */
+  .meme--container {
+    padding-bottom: 12rem;
+  }
+
   /* Footer */
 
   .footer--content {
