@@ -13,5 +13,68 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.container {
+/* Header */
+
+.header--container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: #F8E16C;
+}
+
+.logo--image {
+  width: auto;
+  height: 3rem;
+  margin: 1.5rem;
+}
+
+.logo--heading {
+  color: black;
+  font-weight: 600;
+}
+
+/* Form */
+
+.form--container {
+  margin: 2rem auto;
+  width: 90%;
+}
+
+.input--container > input {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-color: #ccc;
+  width: 48%;
+}
+
+.top--text {
+  margin-right: 2%;
+}
+
+.bottom--text {
+  margin-left: 2%;
+}
+
+.form--button {
+  display: block;
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  border-color: transparent;
+  color: black;
+  background-color: #F8E16C;
+}
+
+.form--button > span {
+  padding-bottom: 2rem;
+}
+
+.form--button > svg {
+  font-size: 2rem;
 }

@@ -24,9 +24,7 @@ export default function Info() {
           className="info--project"
           href="https://personal-travel-journal.vercel.app"
         >
-          <h4 className="info--project--1">
-            Personal Travel Journal
-          </h4>
+          <h4 className="info--project--1">Personal Travel Journal</h4>
         </a>
         <a
           className="info--project"
@@ -36,9 +34,14 @@ export default function Info() {
         </a>
         <a
           className="info--project"
-          href="https://scrimba-react-course.vercel.app"
+          href="https://meme-generator-taupe-psi.vercel.app/"
         >
-          <h4 className="info--project--3">Meme Generator - In Progress</h4>
+          <h4 className="info--project--3">
+            Meme Generator -{" "}
+            <em>
+              <strong>In Progress</strong>
+            </em>
+          </h4>
         </a>
       </section>
     </main>
