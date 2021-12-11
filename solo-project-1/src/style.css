@@ -154,12 +154,30 @@ a:focus {
 }
 
 .info--project--3 {
-  background-color: #F8E16C;
+  background-color: #f8e16c;
   color: black;
 }
 
 .info--project--3:hover {
-  background-color: #F8E16Cdd;
+  background-color: #f8e16cdd;
+}
+
+.info--project--4 {
+  background-color: #474747;
+  color: white;
+}
+
+.info--project--4:hover {
+  background-color: #474747dd;
+}
+
+.info--project--5 {
+  background-color: #474747;
+  color: white;
+}
+
+.info--project--5:hover {
+  background-color: #474747dd;
 }
 
 /* Footer */

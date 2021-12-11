@@ -36,8 +36,19 @@ export default function Info() {
           className="info--project"
           href="https://meme-generator-taupe-psi.vercel.app/"
         >
-          <h4 className="info--project--3">
-            Meme Generator -{" "}
+          <h4 className="info--project--3">Meme Generator</h4>
+        </a>
+        <a className="info--project" href="/">
+          <h4 className="info--project--4">
+            Markdown Notes App -{" "}
+            <em>
+              <strong>In Progress</strong>
+            </em>
+          </h4>
+        </a>
+        <a className="info--project" href="/">
+          <h4 className="info--project--5">
+            Tenzies Game -{" "}
             <em>
               <strong>In Progress</strong>
             </em>
