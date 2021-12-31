@@ -25,6 +25,7 @@ export default function Header() {
           <p>Message Me</p>
         </a>
       </div>
+      {/* <div className={darkMode ? "darkMode" : ""}></div> */}
     </section>
   );
 }
