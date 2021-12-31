@@ -20,25 +20,29 @@ export default function Info() {
       </section>
       <section className="info--section">
         <h3>Projects</h3>
+        {/* Project 1 */}
         <a
           className="info--project"
           href="https://personal-travel-journal.vercel.app"
         >
           <h4 className="info--project--1">Personal Travel Journal</h4>
         </a>
+        {/* Project 2 */}
         <a
           className="info--project"
           href="https://scrimba-react-course.vercel.app"
         >
           <h4 className="info--project--2">Airbnb Experiences Clone</h4>
         </a>
+        {/* Project 3 */}
         <a
           className="info--project"
           href="https://meme-generator-taupe-psi.vercel.app/"
         >
           <h4 className="info--project--3">Meme Generator</h4>
         </a>
-        <a className="info--project" href="/">
+        {/* Project 4 */}
+        <a className="info--project" href="https://markdown-notes-app-sable.vercel.app">
           <h4 className="info--project--4">
             Markdown Notes App -{" "}
             <em>
@@ -46,6 +50,7 @@ export default function Info() {
             </em>
           </h4>
         </a>
+        {/* Project 5 */}
         <a className="info--project" href="/">
           <h4 className="info--project--5">
             Tenzies Game -{" "}

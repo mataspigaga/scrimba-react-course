@@ -167,12 +167,12 @@ a:focus {
 }
 
 .info--project--4 {
-  background-color: #474747;
-  color: white;
+  background-color: #CFBCDF;
+  color: black;
 }
 
 .info--project--4:hover {
-  background-color: #474747dd;
+  background-color: #CFBCDFdd;
 }
 
 .info--project--5 {
