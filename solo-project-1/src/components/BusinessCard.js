@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React from "react";
 import Footer from "./Business Card/Footer";
 import Header from "./Business Card/Header";
 import Image from "./Business Card/Image";
