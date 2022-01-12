@@ -74,14 +74,14 @@ body {
   color: #39a9db;
 }
 
-.header--button {
+.header--button--1 {
   display: flex;
   justify-content: center;
   margin: 20px 0 0;
   width: 100%;
 }
 
-.header--button > a {
+.header--button--1 > a {
   text-decoration: none;
   text-align: center;
   width: 100%;
@@ -94,18 +94,52 @@ body {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-.header--button > a:nth-child(1) {
+.header--button--1 > a:nth-child(1) {
   color: white;
   background: #39a9db;
 }
 
-.header--button > a > p {
+.header--button--1 > a > p {
   margin: 0 0 0 5px;
 }
 
-.header--button > a:hover,
+.header--button--1 > a:hover,
 a:focus {
   background: #39a9dbdd;
+}
+
+.header--button--2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0;
+  width: 100%;
+}
+
+.header--button--2 > a {
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  padding: 0.8rem 0;
+  border-radius: 0.4rem;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.header--button--2 > a:nth-child(1) {
+  color: white;
+  background: #49D49D;
+}
+
+.header--button--2 > a > p {
+  margin: 0 0 0 5px;
+}
+
+.header--button--2 > a:hover,
+a:focus {
+  background: #49D49Ddd;
 }
 
 /* Info */

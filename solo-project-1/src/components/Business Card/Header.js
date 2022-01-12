@@ -1,5 +1,5 @@
 import React from "react";
-import { SiAngellist } from "react-icons/si";
+import { SiAngellist, SiUpwork } from "react-icons/si";
 
 export default function Header() {
   const daysPassed =
@@ -19,10 +19,16 @@ export default function Header() {
           Day {daysPassed}/100
         </a>
       </span>
-      <div className="header--button">
+      <div className="header--button--1">
         <a href="https://twitter.com/mataspigaga">
           <SiAngellist />
           <p>Message Me</p>
+        </a>
+      </div>
+      <div className="header--button--2">
+        <a href="https://www.upwork.com/freelancers/~0196914833f1ac0d84">
+          <SiUpwork />
+          <p>Hire Me on Upwork!</p>
         </a>
       </div>
       {/* <div className={darkMode ? "darkMode" : ""}></div> */}
