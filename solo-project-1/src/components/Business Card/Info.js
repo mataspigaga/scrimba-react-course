@@ -53,7 +53,7 @@ export default function Info() {
         {/* Project 5 */}
         <a className="info--project" href="/">
           <h4 className="info--project--5">
-            Tenzies Game -{" "}
+            Tenzies Game -{" "}    
             <em>
               <strong>In Progress</strong>
             </em>
