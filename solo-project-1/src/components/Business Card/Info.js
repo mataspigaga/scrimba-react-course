@@ -42,7 +42,10 @@ export default function Info() {
           <h4 className="info--project--3">Meme Generator</h4>
         </a>
         {/* Project 4 */}
-        <a className="info--project" href="https://markdown-notes-app-sable.vercel.app">
+        <a
+          className="info--project"
+          href="https://markdown-notes-app-sable.vercel.app"
+        >
           <h4 className="info--project--4">
             Markdown Notes App -{" "}
             <em>
@@ -51,9 +54,12 @@ export default function Info() {
           </h4>
         </a>
         {/* Project 5 */}
-        <a className="info--project" href="/">
+        <a
+          className="info--project"
+          href="https://tenzies-game-seven.vercel.app/"
+        >
           <h4 className="info--project--5">
-            Tenzies Game -{" "}    
+            Tenzies Game -{" "}
             <em>
               <strong>In Progress</strong>
             </em>
