@@ -74,8 +74,8 @@ function App() {
         <header>
           <h1>You Won!</h1>
           <h2>
-            Thanks for playing, you can press 'New Game' to try to beat your
-            score.
+            Thanks for playing, see what else I'm working on at{" "}
+            <a href="https://matas.io.">matas.io</a>
           </h2>
         </header>
       )}

@@ -135,6 +135,12 @@ code {
   }
 
   .app__container > button {
-    width: 10rem;
+    width: 12rem;
+    height: 4rem;
+    font-size: 2rem;
+  }
+
+  .app__container > button:hover {
+    font-size: 2.2rem;
   }
 }
