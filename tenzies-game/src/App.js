@@ -1,4 +1,21 @@
+import { useState } from "react";
+import Die from "./components/Die";
+
 function App() {
+  const [dice, setDice] = useState(allNewDice);
+
+  function allNewDice() {
+    return Array(10)
+      .fill()
+      .map(() => Math.ceil(Math.random() * 6));
+  }
+
+  const diceElements = dice.map((value) => (
+    <Die value={value} key={Math.random()} />
+  ));
+
+  console.log(dice);
+
   return (
     <div className="app__container">
       <header>
@@ -8,18 +25,7 @@ function App() {
           current value between rolls.
         </h2>
       </header>
-      <div className="dice">
-        <div>1</div>
-        <div>2</div>
-        <div>5</div>
-        <div>2</div>
-        <div>1</div>
-        <div>3</div>
-        <div>6</div>
-        <div>4</div>
-        <div>4</div>
-        <div>1</div>
-      </div>
+      <div className="dice">{diceElements}</div>
       <button>Roll</button>
     </div>
   );
