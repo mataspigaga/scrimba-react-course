@@ -73,10 +73,6 @@ code {
   transition: all 150ms;
 }
 
-.dice > div:hover {
-  box-shadow: 0rem 0.2rem 0.2rem grey;
-}
-
 .app__container > button {
   background-color: #593c8f;
   border: none;
@@ -90,10 +86,6 @@ code {
   font-weight: 700;
   cursor: pointer;
   transition: all 150ms;
-}
-
-.app__container > button:hover {
-  font-size: 1.7rem;
 }
 
 @media screen and (min-width: 30rem) {
@@ -132,6 +124,10 @@ code {
     width: 4.5rem;
     height: 4.5rem;
     font-size: 2.5rem;
+  }
+
+  .dice > div:hover {
+    box-shadow: 0rem 0.2rem 0.2rem grey;
   }
 
   .app__container > button {
