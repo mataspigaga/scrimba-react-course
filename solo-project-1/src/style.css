@@ -173,6 +173,16 @@ a:focus {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
+.info--project--0 {
+  background-color: #91A6FF;
+  color: black;
+}
+
+.info--project--0:hover {
+  background-color: #91A6FFdd;
+}
+
+
 .info--project--1 {
   background-color: #4ce0b3;
   color: black;
